@@ -1,10 +1,10 @@
-# DevBoard v2.0 - Professional Task Tracker 🚀
+# DevBoard v2.0 - Professional Task Tracker
 
 A powerful, production-ready task management application built with React, featuring advanced search, statistics, and professional-grade features.
 
 > **NEW in v2.0**: Statistics Dashboard, Search & Filter, Due Dates, Archive, Keyboard Shortcuts, and more!
 
-## ✨ Features
+## Features
 
 ### Core Features
 - **Task Management**: Create, edit, delete, duplicate, and organize tasks
@@ -16,17 +16,17 @@ A powerful, production-ready task management application built with React, featu
 - **Responsive Design**: Works seamlessly on mobile, tablet, and desktop
 - **Smooth Animations**: Powered by Framer Motion for professional feel
 
-### 🆕 Advanced Features (v2.0)
-- **📊 Statistics Dashboard**: Real-time metrics showing total tasks, completion rate, and overdue items
-- **🔍 Search & Filter**: Find tasks quickly by title/description, filter by priority, sort 5 different ways
-- **📅 Due Dates**: Set deadlines with smart display (Today, Tomorrow, or formatted date)
-- **📦 Archive**: Hide completed tasks to keep your board clean
-- **⌨️ Keyboard Shortcuts**: Press Ctrl+K to quickly add tasks
-- **📋 Task Duplication**: Clone tasks instantly for similar work
-- **🎨 Enhanced UI**: Professional empty states, better animations, improved mobile experience
-- **⚡ Performance**: Optimized filtering, sorting, and rendering
+### Advanced Features (v2.0)
+- **Statistics Dashboard**: Real-time metrics showing total tasks, completion rate, and overdue items
+- **Search & Filter**: Find tasks quickly by title/description, filter by priority, sort 5 different ways
+- **Due Dates**: Set deadlines with smart display (Today, Tomorrow, or formatted date)
+- **Archive**: Hide completed tasks to keep your board clean
+- **Keyboard Shortcuts**: Press Ctrl+K to quickly add tasks
+- **Task Duplication**: Clone tasks instantly for similar work
+- **Enhanced UI**: Professional empty states, better animations, improved mobile experience
+- **Performance**: Optimized filtering, sorting, and rendering
 
-## 🚀 Tech Stack
+## Tech Stack
 
 - **React 18** - UI library
 - **Vite** - Build tool and dev server
@@ -35,7 +35,7 @@ A powerful, production-ready task management application built with React, featu
 - **Framer Motion** - Animation library
 - **localStorage** - Client-side data persistence
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 src/
@@ -43,8 +43,8 @@ src/
 │   ├── Header.jsx          # App header with theme toggle
 │   ├── TaskCard.jsx         # Individual task card with all actions
 │   ├── AddTaskModal.jsx     # Modal for creating/editing tasks
-│   ├── Statistics.jsx       # 🆕 Real-time statistics dashboard
-│   └── SearchFilter.jsx     # 🆕 Search, filter, and sort controls
+│   ├── Statistics.jsx       # NEW: Real-time statistics dashboard
+│   └── SearchFilter.jsx     # NEW: Search, filter, and sort controls
 ├── pages/
 │   └── Board.jsx            # Main board with three columns + new features
 ├── context/
@@ -56,7 +56,7 @@ src/
 └── index.css                # Global styles + theme variables
 ```
 
-## 🛠️ Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -90,25 +90,25 @@ npm run build
 
 The production-ready files will be in the `dist` folder.
 
-## 🎯 How to Use
+## How to Use
 
 ### Basic Operations
 1. **Add a Task**: Click "Add Task" button or press `Ctrl+K`
-2. **Edit a Task**: Click the ✏️ edit icon on any task card
-3. **Delete a Task**: Click the 🗑️ delete icon on any task card
-4. **Move Tasks**: Use the ← → arrow buttons to move between columns
-5. **Toggle Theme**: Click the 🌙/☀️ icon in the header
+2. **Edit a Task**: Click the edit icon on any task card
+3. **Delete a Task**: Click the delete icon on any task card
+4. **Move Tasks**: Use the arrow buttons to move between columns
+5. **Toggle Theme**: Click the theme icon in the header
 
-### 🆕 New Features
+### New Features
 6. **Set Due Dates**: Add deadlines when creating/editing tasks
 7. **Search Tasks**: Type in the search box to find tasks instantly
 8. **Filter by Priority**: Use dropdown to show only High/Medium/Low priority
 9. **Sort Tasks**: Choose from 5 sorting options (newest, oldest, priority, due date)
-10. **Duplicate Tasks**: Click the 📋 icon to create a copy
-11. **Archive Tasks**: Click the 📦 icon on completed tasks to archive them
+10. **Duplicate Tasks**: Click the duplicate icon to create a copy
+11. **Archive Tasks**: Click the archive icon on completed tasks to archive them
 12. **View Statistics**: Check the dashboard at top for real-time metrics
 
-## 🎨 Key Concepts Demonstrated
+## Key Concepts Demonstrated
 
 - **Component-Based Architecture**: Modular, reusable components
 - **State Management**: Using React Context API with useReducer
@@ -118,7 +118,7 @@ The production-ready files will be in the `dist` folder.
 - **Props and Callbacks**: Parent-child component communication
 - **Custom Hooks**: useTasks hook for accessing context
 
-## 📝 Learning Points
+## Learning Points
 
 This project is perfect for intermediate React developers looking to:
 - Practice React fundamentals
@@ -129,7 +129,7 @@ This project is perfect for intermediate React developers looking to:
 - Add animations and transitions
 - Create a polished user experience
 
-## 🤝 Contributing
+## Contributing
 
 Feel free to fork this project and add your own features! Some ideas:
 - Drag and drop functionality
@@ -138,20 +138,18 @@ Feel free to fork this project and add your own features! Some ideas:
 - Search and filter tasks
 - Export/import tasks
 
-## 📚 Additional Documentation
+## Additional Documentation
 
-- **[NEW_FEATURES.md](NEW_FEATURES.md)** - Detailed guide to all v2.0 features
-- **[FEATURES_QUICK_REFERENCE.md](FEATURES_QUICK_REFERENCE.md)** - Quick reference card for daily use
 - **[QUICKSTART.md](QUICKSTART.md)** - Beginner-friendly getting started guide
 - **[PROJECT_OVERVIEW.md](PROJECT_OVERVIEW.md)** - Technical deep dive and architecture
 
-## 📄 License
+## License
 
 This project is open source and available for educational purposes.
 
 ---
 
-## 🎉 What's Next?
+## What's Next?
 
 DevBoard v2.0 is production-ready! Consider adding:
 - Drag & drop functionality
@@ -162,4 +160,4 @@ DevBoard v2.0 is production-ready! Consider adding:
 
 ---
 
-**Built with ❤️ and upgraded to v2.0 with 🚀**
+**Built with care and upgraded to v2.0**

@@ -1,39 +1,39 @@
 # DevBoard - Quick Start Guide
 
-## 🎉 Your App is Ready!
+## Your App is Ready
 
 The DevBoard application has been successfully created and is running on your local machine.
 
-## 🚀 Access Your App
+## Access Your App
 
 Once the dev server starts, open your browser and navigate to:
 ```
 http://localhost:5173
 ```
 
-## 📚 What's Included
+## What's Included
 
-### ✅ Core Features Implemented
+### Core Features Implemented
 
 1. **Task Management**
-   - ✨ Add new tasks with title, description, and priority
-   - ✏️ Edit existing tasks
-   - 🗑️ Delete tasks with confirmation
-   - ➡️ Move tasks between columns (To Do → In Progress → Done)
+   - Add new tasks with title, description, and priority
+   - Edit existing tasks
+   - Delete tasks with confirmation
+   - Move tasks between columns (To Do → In Progress → Done)
 
 2. **Three-Column Board**
-   - 📋 To Do - Tasks that need to be started
-   - 🔄 In Progress - Tasks currently being worked on
-   - ✅ Done - Completed tasks
+   - To Do - Tasks that need to be started
+   - In Progress - Tasks currently being worked on
+   - Done - Completed tasks
 
 3. **Priority System**
-   - 🔴 High Priority (Red badge)
-   - 🟡 Medium Priority (Yellow badge)
-   - 🟢 Low Priority (Green badge)
+   - High Priority (Red badge)
+   - Medium Priority (Yellow badge)
+   - Low Priority (Green badge)
 
 4. **Theme Toggle**
-   - ☀️ Light Mode
-   - 🌙 Dark Mode
+   - Light Mode
+   - Dark Mode
    - Theme preference saved to localStorage
 
 5. **Data Persistence**
@@ -45,7 +45,7 @@ http://localhost:5173
    - Smooth animations and transitions
    - Responsive on all devices
 
-## 🎨 Try It Out!
+## Try It Out
 
 ### Step 1: Add Your First Task
 1. Click the "Add Task" button (blue gradient button in top right)
@@ -66,7 +66,7 @@ http://localhost:5173
 ### Step 4: Try Dark Mode
 - Click the moon/sun icon in the header to toggle between themes
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 devboard/
@@ -94,7 +94,7 @@ devboard/
 └── package.json             # Dependencies and scripts
 ```
 
-## 🛠️ Development Commands
+## Development Commands
 
 ```bash
 # Start development server
@@ -110,16 +110,16 @@ npm run preview
 npm run lint
 ```
 
-## 🎓 Learning Points
+## Learning Points
 
 This project demonstrates:
 
 1. **React Hooks**
-   - `useState` - Local component state
-   - `useEffect` - Side effects and lifecycle
-   - `useReducer` - Complex state management
-   - `useContext` - Global state access
-   - Custom hooks - `useTasks`
+   - useState - Local component state
+   - useEffect - Side effects and lifecycle
+   - useReducer - Complex state management
+   - useContext - Global state access
+   - Custom hooks - useTasks
 
 2. **Component Patterns**
    - Presentational vs Container components
@@ -149,70 +149,14 @@ This project demonstrates:
    - Smooth animations
    - Accessibility considerations
 
-## 🎯 Next Steps / Enhancement Ideas
-
-Want to take this further? Try adding:
-
-1. **Drag and Drop**
-   - Use `@dnd-kit/core` or `react-beautiful-dnd`
-   - Allow dragging tasks between columns
-
-2. **Due Dates**
-   - Add date picker for task deadlines
-   - Show overdue tasks in different color
-
-3. **Categories/Tags**
-   - Add tags to tasks (e.g., "frontend", "backend", "design")
-   - Filter tasks by tags
-
-4. **Search & Filter**
-   - Search tasks by title/description
-   - Filter by priority level
-
-5. **Task Details**
-   - Expand task card to show more info
-   - Add subtasks/checklist
-
-6. **Data Export**
-   - Export tasks to JSON
-   - Import tasks from file
-
-7. **Statistics**
-   - Show completed tasks count
-   - Task completion chart
-
-8. **Backend Integration**
-   - Connect to REST API
-   - Add user authentication
-   - Multi-user support
-
-## 🐛 Troubleshooting
-
-### Port Already in Use
-If port 5173 is busy:
-```bash
-# Vite will automatically try the next available port
-# Check the terminal output for the actual port
-```
-
-### Dark Mode Not Working
-- Clear your browser cache
-- Check browser console for errors
-- Ensure JavaScript is enabled
-
-### Tasks Not Persisting
-- Check browser localStorage is enabled
-- Try a different browser
-- Check browser console for storage errors
-
-## 📖 Key Files to Study
+## Key Files to Study
 
 1. **TaskContext.jsx** - Learn about Context API and useReducer
 2. **Board.jsx** - See how to compose components
 3. **AddTaskModal.jsx** - Form handling and validation
 4. **storage.js** - localStorage best practices
 
-## 🎨 Customization Tips
+## Customization Tips
 
 ### Change Color Scheme
 Edit `tailwind.config.js`:
@@ -236,9 +180,27 @@ Edit Framer Motion props in components:
 transition={{ duration: 0.3 }} // Change to your preference
 ```
 
+## Troubleshooting
+
+### Port Already in Use
+If port 5173 is busy:
+```bash
+# Vite will automatically try the next available port
+# Check the terminal output for the actual port
+```
+
+### Dark Mode Not Working
+- Clear your browser cache
+- Check browser console for errors
+- Ensure JavaScript is enabled
+
+### Tasks Not Persisting
+- Check browser localStorage is enabled
+- Try a different browser
+- Check browser console for storage errors
+
 ---
 
-**Happy Coding! 🚀**
+**Happy Coding!**
 
 If you have any questions or want to add more features, feel free to experiment!
-
